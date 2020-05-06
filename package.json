@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "\"\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon main"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.669.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "*",
+    "cors": "*",
+    "dynamodb": "^1.2.1",
+    "dynamodb-model": "0.0.2",
+    "dynamodb-store": "^1.2.0",
+    "dynamoose": "^2.1.2",
+    "express": "*",
+    "express-session": "^1.17.1",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "*",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "uuid": "^8.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
